@@ -7,6 +7,7 @@
 
     <title>AdminLTE 3 | Starter</title>
     <partial name="AdminLTE/_Styles" />
+    @RenderSection("styles", required: false)
 </head>
 <body class="hold-transition sidebar-mini">
     <div class="wrapper">
@@ -43,5 +44,6 @@
         <partial name="AdminLTE/_Footer" />
     </div>
     <partial name="AdminLTE/_Scripts" />
+    @RenderSection("scripts", required: false)
 </body>
 </html>
